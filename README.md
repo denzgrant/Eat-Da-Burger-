@@ -1,7 +1,7 @@
 
   <h1>Eat-Da-Burger!</h1>
   <p>Eat-Da-Burger! is a restaurant app that lets users input the name of burgers they'd like to eat. Whenever a user submits a burger's name, this app will display the burger on the left side of the page--waiting to be devoured. Each burger in the waiting area also has a 'Devour it!' button. When the user clicks it, the burger will move to the right side of the page. This app will store every burger in a database, whether devoured or not. </p>
-  <img src="/css/eat_da_burger.gif" alt="demogif">  
+  <img src="/public/assets/css/eat_da_burger.gif" alt="demogif">  
   <h2>Table of Contents</h2>
   <ul> 
    <li><a href="#Installation">Installation</a></li> 
