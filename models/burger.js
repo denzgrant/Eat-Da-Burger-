@@ -3,20 +3,25 @@ const orm = require("../config/orm.js");
 
 const burger = {
   all: async () => {
-    const result = await orm.selectAll("burger");
+    const result = await orm.selectAll("burgers");
 
     return result;
   },
 
   // The variables cols and vals are arrays.
   create: async (cols, vals) => {
-    const result = await orm.insertOne("burger", cols, vals);
+    const result = await orm.insertOne("burgers", cols, vals);
 
     return result;
   },
 
   update: async (objColVals, condition) => {
-    const result = await orm.updateOne("burger", objColVals, condition);
+    const result = await orm.updateOne("burgers", objColVals, condition);
+
+    return result;
+  },
+  delete: async (condition) => {
+    const result = await orm.deleteOne("burgers", condition);
 
     return result;
   }

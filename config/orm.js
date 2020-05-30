@@ -1,5 +1,5 @@
 // Import MySQL connection.
-const connection = require("../config/connection.js");
+const connection = require("./connection.js");
 
 // Helper function for SQL syntax.
 // Let's say we want to pass 3 values into the mySQL query.
@@ -58,7 +58,7 @@ const orm = {
 
     return result;
   },
-  // An example of objColVals would be {name: panther, sleepy: true}
+
   updateOne: async (table, objColVals, condition) => {
     let queryString = `UPDATE ${table} SET ${objToSql(objColVals)} WHERE ${condition}`;
 
@@ -66,8 +66,15 @@ const orm = {
     const result = await connection.query(queryString);
 
     return result;
+  },
+  deleteOne: async (table, condition) => {
+    let queryString = `DELETE FROM ${table} WHERE ${condition}`;
+
+    const result = await connection.query(queryString);
+
+    return result;
   }
 };
 
-// Export the orm object for the model (burgers.js).
+// Export the orm object for the model (burger.js).
 module.exports = orm;

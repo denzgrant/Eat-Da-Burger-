@@ -1,19 +1,50 @@
-li {
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  background-image: url("15054.png");
+}
+
+h1,
+#three,
+#two,
+#one,
+.emoji {
+  background-size: cover;
+  height: fit-content;
+  text-align: center;
+  margin-top: -8px !important;
+}
+#h3,
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+li,
+h3 {
   padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+  margin: 1px;
+  font-weight: bold;
 }
 
 .label {
   font-weight: bold;
 }
 
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
-}
-
 .form-group {
   margin-bottom: 5px;
+  color: wheat;
+  font-weight: bolder;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 4px #000000;
+}
+button {
+  background: #ffd867;
+}
+h1,
+h2,
+h3 {
+  text-shadow: 2px 2px 4px #fcfcfc;
 }
