@@ -23,7 +23,7 @@
   <h2 id="Usage">Usage</h2>
   <p>If you ever want to create a wishlist or a tracker of what hamburgers you want to or have eaten, feel free to use.</p> 
   <h2 id="License">License</h2>
-  <p>Licensed under the<a href="./README.md">MIT</a></p>
+  <p>Licensed under the <a href="./LICENSE">MIT</a></p>
   <h2 id="Contributing">Contributing</h2>
   <p>Anyone is free to contritbute to this project. Feel free to add on. </p>
   <h2 id="Questions">Questions</h2>
