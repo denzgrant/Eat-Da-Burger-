@@ -31,5 +31,6 @@
   <img src="https://avatars.githubusercontent.com/u/58059554?" alt="git hub profile picture" height="225" width="250">
   <img src="https://img.shields.io/badge/Node-12.16.3-brightgreen">
   <img src="https://img.shields.io/badge/-JavaScript-brightgreen">
-  <img src="https://img.shields.io/github/followers/denzgrant?label=follow&style=social">                           
+  <img src="https://img.shields.io/github/followers/denzgrant?label=follow&style=social">
+  <img src="https://img.shields.io//node/v/:packageName">
   
