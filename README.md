@@ -17,7 +17,7 @@
   </ul>
   <h2 id="Installation">Installation</h2>
     <ol>
-<li>Clone this repository.<pre><code> git <span class="hljs-keyword">clone</span> <span class="hljs-title">https</span>https://github.com/denzgrant/Eat-Da-Burger-.git
+<li>Clone this repository.<pre><code> git <span class="hljs-keyword">clone</span> <span class="hljs-title">https</span>://github.com/denzgrant/Eat-Da-Burger-.git
 </code></pre></li>
 <li>Install Nodejs dependencies.<pre><code> npm <span class="hljs-keyword">install</span>
 </code></pre></li>
